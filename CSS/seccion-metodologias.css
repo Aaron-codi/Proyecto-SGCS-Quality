@@ -1,0 +1,71 @@
+
+
+/* =========================================================
+   METODOLOGÍAS ÁGILES
+   ========================================================= */
+
+.metodologia {
+    width: 100%;
+    border-bottom: 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.metodologia-titulo {
+    width: 100%;
+    padding: 15px 20px;
+
+    border: none;
+    background: transparent;
+
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.metodologia-titulo:hover {
+    background-color: #f2f2f2;
+}
+
+.metodologia-contenido {
+    padding: 15px 20px;
+    border-top: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+
+/* =========================================================
+   METODOLOGÍAS ÁGILES
+   SCRUM EN DETALLE
+   ========================================================= */
+
+#caja-scrum-introduccion {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#botones-scrum {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#contenido-scrum p {
+    display: flex;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.15);
+    height: auto;
+    min-height: 50px;
+    
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

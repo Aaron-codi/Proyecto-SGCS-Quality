@@ -1,0 +1,47 @@
+/* =========================================================
+   RECURSOS Y APRENDIZAJE
+   GLOSARIO
+   ========================================================= */
+
+
+.botones-glosario {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.botones-glosario a {
+    display: flex;
+    border: 1px solid;
+    border-radius: 5px;
+    width: clamp(18px, 22px, 40px);
+    justify-content: center;
+
+    color: gray !important;
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================================================
+   RECURSOS Y APRENDIZAJE
+   FAQ
+   ========================================================= */
+
+.FAQ-titulo {
+    width: 100%;
+    padding: 15px 20px;
+
+    border: none;
+    background: transparent;
+
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.FAQ-contenido {
+    padding: 15px 20px;
+    border-top: 1px solid #ccc;
+    background-color: #fafafa;
+}

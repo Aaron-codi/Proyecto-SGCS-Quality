@@ -1,0 +1,70 @@
+
+
+/* =========================================================
+   PROCESOS DE DESARROLLO
+   SDLC
+   ========================================================= */
+.timeline {
+    position: relative;
+    padding-left: 40px;
+}
+
+.evento {
+    position: relative;
+    min-height: 100px;
+}
+
+.punto {
+    position: absolute;
+
+    left: -10px;
+    top: 0;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    background-color: white;
+
+    border: 3px solid blue;
+}
+
+.evento::before {
+    content: "";
+
+    position: absolute;
+
+    left: -1px;
+    top: 20px;
+
+    width: 2px;
+    height: 100%;
+
+    background-color: blue;
+}
+
+.contenido {
+    padding-left: 20px;
+}
+
+
+/* =========================================================
+   PROCESOS DE DESARROLLO
+   MODELOS TRADICIONALES
+   ========================================================= */
+.table tr {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.table td {
+    flex: 1;
+    border-radius: 10px;
+    font-family: monospace;
+    flex: 1 1 200px;
+}
+#botones-modelos{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+}

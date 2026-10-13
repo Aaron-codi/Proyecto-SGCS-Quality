@@ -1,0 +1,115 @@
+/* =========================================================
+   COMPONENTES GENERALES
+   ========================================================= */
+/* -------------------------
+   Botones principales
+   ------------------------- */
+
+.BTN-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-width: 2px;
+    font-size: 18px;
+    padding: 0 7px;
+    text-align: center;
+
+    /* Modificación de valores predefinidos por Bootstrap */
+    --bs-btn-hover-color: white !important;
+    --bs-btn-color: black;
+    --bs-btn-hover-bg: #4f5df0;
+
+    --bs-btn-border-color: transparent;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: transparent;
+    --bs-btn-hover-border-color: transparent;
+}
+
+.BTN-panel:hover {
+    --bs-btn-font-weight: 400;
+}
+
+.BTN-panel:focus {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: white;
+    background-color: #4f5df0;
+}
+/* -------------------------
+   Botones secundarios
+   ------------------------- */
+
+.btn-comun {
+    border: 1px solid;
+    border-radius: 100px;
+
+    --bs-btn-hover-color: #4f5df0;
+    --bs-btn-color: gray;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-active-bg: transparent;
+    --bs-btn-border-color: transparent;
+    --bs-btn-font-weight: 400;
+    --bs-btn-active-color: #4f5df0;
+    --bs-btn-line-height: transparent;
+    --bs-btn-hover-border-color: #4f5df0;
+}
+
+
+/* -------------------------
+   Contenedores de introducción de SUB SECCIONES
+   ------------------------- */
+
+.caja-introduccion {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* -------------------------
+   Contenido encerrado en caja
+   ------------------------- */
+
+.seccion-contenido {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+/* -------------------------
+   Cartas que se reparten
+   ------------------------- */
+
+.card-personalizado {
+    flex: 1 1 250px;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+}
+.card-personalizado .card-title,
+.card-personalizado .card-text {
+    overflow-wrap: anywhere;   /* corta las letras solo si hace falta, similar a flex-wrap, pero con el contenido de las cajas que posean estas clases*/ 
+}
+
+#botones-herramientas-calidad {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#contenedor-contenido {
+    flex-wrap: wrap;
+}
+.caja-tecnica {
+    flex: 1 1 150px;
+}
+
+/* -------------------------
+   Botones redondeados
+   ------------------------- */
+
+.btn-personalizado {
+    border-radius: 100px;
+}

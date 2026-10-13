@@ -1,0 +1,32 @@
+
+/* =========================================================
+   SOBRE NOSOTROS
+   ========================================================= */
+
+#contenido-nosotros {
+    height: auto;
+    width: 100%;
+}
+
+#caja-nosotros-introduccion {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen-carta {
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+    align-self: center;
+}
+
+.card-sobre-nosotros {
+    flex: 1 1 250px;
+}

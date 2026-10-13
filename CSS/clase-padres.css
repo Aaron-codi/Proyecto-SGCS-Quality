@@ -1,0 +1,25 @@
+
+/* =========================================================
+   SECCIONES PADRES
+   Gestión de calidad
+   Procesos de desarrollo
+   Metodologías ágiles
+   Recursos y aprendizaje
+   Sobre nosotros
+   ========================================================= */
+
+.secciones-padres {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#botones-gestion {
+    display: flex;
+    flex-direction: row;
+    gap: 0 10px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,96 @@
+
+/* =========================================================
+   GESTIÓN DE CALIDAD
+   SECCIÓN FUNDAMENTOS
+   ========================================================= */
+
+#fundamentos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+#botones-fundamentos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#ISO-9126 {
+    color: black !important;
+    --bs-btn-hover-bg: transparent;
+}
+
+#ISO-25000 {
+    color: black !important;
+    --bs-btn-hover-bg: transparent;
+}
+
+#ISO-9126:focus {
+    background-color: #4f5df0;
+    color: #ffffff !important;
+}
+
+#ISO-25000:focus {
+    background-color: #4f5df0;
+    color: #ffffff !important;
+}
+
+#contenido-fundamentos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.seccion {
+    display: none;
+}
+
+.seccion.activa {
+    display: block;
+}
+
+
+/* =========================================================
+   GESTIÓN DE CALIDAD
+   TÉCNICAS DE ASEGURAMIENTO
+   ========================================================= */
+
+
+#contenedor-cartas-tecnicas {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/* =========================================================
+   GESTIÓN DE CALIDAD
+   HERRAMIENTAS
+   ========================================================= */
+
+.seccion-herramientas { /* CORROBORAR SI EXISTE UN ELEMENTO QUE UTILIZE ESTA*/
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+#botones-herramientas-calidad {
+    display: flex;
+    flex-direction: row;
+}
+
+#contenedor-contenido {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

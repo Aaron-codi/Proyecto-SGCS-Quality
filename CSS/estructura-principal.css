@@ -1,0 +1,165 @@
+/* =========================================================
+   CONFIGURACIÓN GENERAL
+   ========================================================= */
+html { scroll-padding-top: 90px; }
+* {
+    box-sizing: border-box;
+   
+}
+
+h4 {
+    color: #4f5df0;
+    font-weight: bold;
+}
+
+hr {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* =========================================================
+   ESTRUCTURA PRINCIPAL
+   #contenedor-padre
+   #encabezado
+   #cuerpo
+   #pie
+   ========================================================= */
+
+#contenedor-padre {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+#encabezado {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;          /* era 9% */
+    min-height: 70px;
+    padding: 10px;
+    font-size: x-large;
+    background-color: #FBFBFB;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+#menu {
+   
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+#menu a {
+    font-size: clamp(16px, 1rem, 32px);
+    margin-left: 0;
+}
+
+/* Celular y tablet: menú abierto, forma hamburguesa */
+@media (max-width: 991.98px) {
+    #menu.show {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin-top: 10px;
+    }
+}
+
+/* Escritorio normal*/
+@media (min-width: 992px) {
+    #menu {
+        flex-direction: row;
+        width: 65%;
+        height: 100%;
+        margin-right: 10%;
+        max-height: none;
+        overflow: visible;
+    }
+    #menu a { margin-left: 0.8%; }
+}
+
+
+
+
+
+
+#img-titulo {
+    width: auto;
+    height: 2em;
+    font-weight: bold;
+    margin-left: 4%;
+}
+
+
+
+#cuerpo {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 90px;
+    
+}
+
+#pie {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 1% 5%;
+}
+
+
+/* =========================================================
+   NAVEGACIÓN
+   .BTN-panel
+   .altura-ancho-flecha
+   ========================================================= */
+
+
+
+.altura-ancho-flecha {
+    width: 1em;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    --bs-btn-hover-color: white !important;
+    --bs-btn-color: black;
+    --bs-btn-hover-bg: #4f5df0;
+
+    --bs-btn-border-color: transparent;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: transparent;
+    --bs-btn-hover-border-color: transparent;
+
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   PIE DE PÁGINA
+   ========================================================= */
+
+.carta-pie {
+    width: 100%;
+}
